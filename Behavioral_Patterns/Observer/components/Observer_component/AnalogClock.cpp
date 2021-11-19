@@ -24,6 +24,6 @@ void AnalogClock::Draw () {
     int minute = _subject->GetMinute();
     // etc.
 
-    // draw the digital clock
-    std::cout << hour << ":" << minute << std::endl;
+    // draw the analog clock
+    std::cout << "analog  " << hour << ":" << minute << std::endl;
 }

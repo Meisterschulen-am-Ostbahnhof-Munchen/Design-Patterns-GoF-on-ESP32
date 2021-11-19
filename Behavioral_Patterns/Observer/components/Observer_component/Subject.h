@@ -1,7 +1,7 @@
 #ifndef SUBJECT_H
 #define SUBJECT_H
 
-#include "List.h"
+#include "ItemList.h"
 
 class Observer;
 
@@ -13,7 +13,7 @@ public:
     virtual void Attach(Observer*);
     virtual void Detach(Observer*);
     virtual void Notify();
-    Subject():_observers(){};
+    Subject();
 private:
     List<Observer*> *_observers;
 };

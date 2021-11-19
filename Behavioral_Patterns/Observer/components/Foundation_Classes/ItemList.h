@@ -1,5 +1,5 @@
-#ifndef LIST_H
-#define LIST_H
+#ifndef ITEM_LIST_H
+#define ITEM_LIST_H
 
 #include "Iterator.h"
 
@@ -44,4 +44,4 @@ private:
 
 #include "List.cpp"
 
-#endif /* LIST_H */
+#endif /* ITEM_LIST_H */

@@ -16,3 +16,8 @@ void Subject::Notify () {
         i.CurrentItem()->Update(this);
     }
 }
+
+Subject::Subject() {
+	_observers = new List<Observer*>();
+}
+

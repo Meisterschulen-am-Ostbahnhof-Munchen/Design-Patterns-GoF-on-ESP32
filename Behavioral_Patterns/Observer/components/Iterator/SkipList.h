@@ -1,7 +1,7 @@
 #ifndef SKIP_LIST_H
 #define SKIP_LIST_H
 
-#include "List.h"
+#include "ItemList.h"
 
 template <class Item>
 class SkipList : public List<Item> {

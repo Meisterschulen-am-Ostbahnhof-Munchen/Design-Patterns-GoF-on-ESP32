@@ -1,8 +1,8 @@
 #ifndef REVERSE_LIST_ITERATOR_H
 #define REVERSE_LIST_ITERATOR_H
 
+#include "ItemList.h"
 #include "Iterator.h"
-#include "List.h"
 
 template <class Item>
 class ReverseListIterator : public Iterator<Item> {

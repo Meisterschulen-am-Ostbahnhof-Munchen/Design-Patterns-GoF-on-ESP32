@@ -15,6 +15,10 @@ public:
     int GetSecond();
 
     void Tick();
+private:
+    int hour;
+    int minute;
+    int second;
 };
 
 #endif /* CLOCK_TIMER_H */

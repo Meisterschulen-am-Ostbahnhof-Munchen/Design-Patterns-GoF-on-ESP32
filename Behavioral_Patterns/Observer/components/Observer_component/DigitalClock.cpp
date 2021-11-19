@@ -25,5 +25,5 @@ void DigitalClock::Draw () {
     // etc.
 
     // draw the digital clock
-    std::cout << hour << ":" << minute << std::endl;
+    std::cout << "digital " << hour << ":" << minute << std::endl;
 }

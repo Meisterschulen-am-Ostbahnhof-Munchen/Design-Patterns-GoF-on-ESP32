@@ -3,9 +3,9 @@
 
 class Font {
 public:
-    Font(char*);
+    Font(char const *);
 private:
-    char* _name;
+    char const * _name;
 };
 
 #endif /* FONT_H */

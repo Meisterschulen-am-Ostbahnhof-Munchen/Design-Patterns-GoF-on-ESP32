@@ -21,8 +21,8 @@ extern "C" void app_main(void)
     printf("Hello world!\n");
 
     GlyphContext gc;
-    Font* times12 = new Font("Times-Roman-12");
-    Font* timesItalic12 = new Font("Times-Italic-12");
+    Font* times12 = new Font("Times-Roman-12"); //ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+    Font* timesItalic12 = new Font("Times-Italic-12"); //ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
     // ...
 
     gc.SetFont(times12, 6);

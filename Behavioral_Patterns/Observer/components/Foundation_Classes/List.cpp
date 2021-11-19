@@ -36,6 +36,7 @@ Item& List<Item>::Get(long index) const {
       return _items[index];
     } else {
       // throw RangeError exception
+      return _items[index];
     }
 }
 

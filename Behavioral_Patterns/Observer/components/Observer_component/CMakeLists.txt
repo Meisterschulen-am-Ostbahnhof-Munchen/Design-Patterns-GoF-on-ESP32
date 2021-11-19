@@ -1,13 +1,12 @@
 # Edit following two lines to set component requirements (see docs)
 set(COMPONENT_REQUIRES )
-set(COMPONENT_PRIV_REQUIRES )
+set(COMPONENT_PRIV_REQUIRES 
+	Foundation_Classes)
 
 set(COMPONENT_SRCS 
-    Character.cpp
-    Font.cpp
-    Glyph.cpp
-    GlyphContext.cpp
-    GlyphFactory.cpp)
+    ClockTimer.cpp
+    DigitalClock.cpp
+    Subject.cpp)
 
 set(COMPONENT_ADD_INCLUDEDIRS "" ".")
 

@@ -12,7 +12,7 @@ public:
     GlyphFactory();
     virtual ~GlyphFactory();
 
-    virtual Character* CreateCharacter(char);
+    virtual Character* CreateCharacter(unsigned char);
     virtual Row* CreateRow();
     virtual Column* CreateColumn();
     // ...

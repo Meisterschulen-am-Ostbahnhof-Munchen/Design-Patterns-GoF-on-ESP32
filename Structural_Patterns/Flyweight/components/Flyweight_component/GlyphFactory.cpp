@@ -15,8 +15,12 @@ GlyphFactory:: ~GlyphFactory()
     delete[] _character;
 }
 
-Character* GlyphFactory::CreateCharacter(char c)
+Character* GlyphFactory::CreateCharacter(unsigned char c)
 {
+	//char is a SIGNED Type in C.
+	// so if there comes in a -123, we cannot find the Element.
+
+
     if (!_character[c]) {
         _character[c] = new Character(c);
     }

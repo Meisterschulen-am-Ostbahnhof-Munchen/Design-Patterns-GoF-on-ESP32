@@ -10,7 +10,7 @@ class Subject;
 class DigitalClock: public Widget, public Observer {
 public:
     DigitalClock(ClockTimer*);
-    virtual ~DigitalClock();
+	virtual ~DigitalClock();
 
     virtual void Update(Subject*);
         // overrides Observer operation

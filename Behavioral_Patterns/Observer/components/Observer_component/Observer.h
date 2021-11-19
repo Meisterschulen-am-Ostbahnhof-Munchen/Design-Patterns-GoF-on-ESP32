@@ -3,12 +3,12 @@
 
 class Subject;
 
+//abstract class
 class Observer {
 public:
-    virtual ~Observer();
+	// Empty virtual destructor for proper cleanup
+	virtual ~Observer() {}
     virtual void Update(Subject* theChangedSubject) = 0;
-protected:
-    Observer();
 };
 
 #endif /* OBSERVER_H */

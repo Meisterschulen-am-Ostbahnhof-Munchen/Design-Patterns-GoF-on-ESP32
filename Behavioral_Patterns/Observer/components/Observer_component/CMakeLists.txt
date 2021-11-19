@@ -6,6 +6,7 @@ set(COMPONENT_PRIV_REQUIRES
 
 set(COMPONENT_SRCS 
     ClockTimer.cpp
+    AnalogClock.cpp
     DigitalClock.cpp
     Subject.cpp)
 

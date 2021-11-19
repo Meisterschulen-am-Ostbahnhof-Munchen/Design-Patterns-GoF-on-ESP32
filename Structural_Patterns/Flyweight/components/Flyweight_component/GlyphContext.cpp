@@ -1,7 +1,9 @@
 // TODO: implement these.
 #include "GlyphContext.h"
 
-GlyphContext::GlyphContext()
+GlyphContext::GlyphContext():
+	_index(),
+	_fonts()
 {}
 
 GlyphContext::~GlyphContext()

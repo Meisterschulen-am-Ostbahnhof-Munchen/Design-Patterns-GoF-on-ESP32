@@ -3,13 +3,16 @@
 
 #include "Subject.h"
 
-class ClockTimer : public Subject {
+class ClockTimer : public Subject{
 public:
+	// Empty virtual destructor for proper cleanup
+	virtual ~ClockTimer() {}
+
     ClockTimer();
 
-    virtual int GetHour();
-    virtual int GetMinute();
-    virtual int GetSecond();
+    int GetHour();
+    int GetMinute();
+    int GetSecond();
 
     void Tick();
 };

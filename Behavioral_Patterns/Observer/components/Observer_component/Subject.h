@@ -7,13 +7,13 @@ class Observer;
 
 class Subject {
 public:
-    virtual ~Subject();
+	// Empty virtual destructor for proper cleanup
+	virtual ~Subject() {}
 
     virtual void Attach(Observer*);
     virtual void Detach(Observer*);
     virtual void Notify();
-protected:
-    Subject();
+    Subject():_observers(){};
 private:
     List<Observer*> *_observers;
 };

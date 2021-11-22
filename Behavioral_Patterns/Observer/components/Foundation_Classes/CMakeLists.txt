@@ -3,10 +3,7 @@ set(COMPONENT_REQUIRES )
 set(COMPONENT_PRIV_REQUIRES 
    Iterator)
 
-set(COMPONENT_SRCS 
-    Coord.cpp
-    Point.cpp
-    Rect.cpp)
+set(COMPONENT_SRCS)
 
 set(COMPONENT_ADD_INCLUDEDIRS "" ".")
 
